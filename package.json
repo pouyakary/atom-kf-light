@@ -1,0 +1,18 @@
+{
+  "name": "kary-foundation-light",
+  "author": {
+    "name": "Kary Foundation, Inc"
+  },
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Kary Foundation's Light Theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/karyfoundation/atom-kf-light",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
