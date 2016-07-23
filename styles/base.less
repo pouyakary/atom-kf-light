@@ -49,91 +49,119 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #EEEEEE;
+  background-color: #F0F0F0;
 }
 
 .comment {
-  color: #C1BFBF;
+  color: #C7C4C2;
+}
+
+.keyword.operator {
+  color: #1A1A1A;
 }
 
 .string {
-  color: #25722E;
+  color: #398BC9;
 }
 
 .constant.numeric {
-  color: #2E77BD;
+  color: #398BC9;
 }
 
 .constant.language {
-  color: #25722E;
+  color: #3F831E;
 }
 
 .constant.character, .constant.other {
-  color: #2E77BD;
+  color: #398BC9;
 }
 
 .variable {
-  color: #BA1A00;
+  color: #CB4718;
 }
 
 .keyword {
-  color: #9D1795;
+  color: #AF33A6;
 }
 
 .storage {
-  color: #9D1795;
+  color: #AF33A6;
 }
 
 .storage.type {
-  color: #B16C00;
+  color: #C07F00;
 }
 
 .entity.name.class {
-  color: #BA1A00;
+  color: #CB4718;
 }
 
 .entity.other.inherited-class {
-  color: #BA1A00;
+  color: #CB4718;
 }
 
 .entity.name.function {
-  color: #BA1A00;
+  color: #CB4718;
 }
 
 .variable.parameter {
-  color: #B16C00;
+  color: #C07F00;
+}
+
+.punctuation.definition.tag.html, .punctuation.definition.tag.begin, .punctuation.definition.tag.end {
+  color: #398BC9;
 }
 
 .entity.name.tag {
-  color: #9D1795;
+  color: #398BC9;
 }
 
 .entity.other.attribute-name {
-  color: #B16C00;
+  color: #AF33A6;
 }
 
 .support.function {
-  color: #2E77BD;
+  color: #398BC9;
 }
 
 .support.constant {
-  color: #2E77BD;
+  color: #398BC9;
 }
 
 .support.type, .support.class {
-  color: #2E77BD;
+  color: #3F831E;
 }
 
 .support.other.variable {
-  color: #BA1A00;
+  color: #CB4718;
 }
 
 .invalid {
-  color: #F8F8F0;
-  background-color: #16333D;
+  color: #F9F9F3;
+  background-color: #1B424E;
 }
 
 .invalid.deprecated {
-  color: #F8F8F0;
-  background-color: #AD6E26;
+  color: #F9F9F3;
+  background-color: #BC8132;
+}
+
+.meta.selector.css .entity.other.attribute-name.id {
+  color: #C07F00;
+}
+
+.markup.heading {
+  color: #CB4718;
+}
+
+.storage.modifier.ts {
+  color: #C07F00;
+}
+
+.string.quoted.single.html, .string.quoted.double.html, .string.html {
+  color: #3F831E;
+}
+
+.cast.expr.ts {
+  color: #398BC9;
 }
